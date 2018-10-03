@@ -11,10 +11,10 @@
                                     <div class="container">
                                         <div class="slider-content">
                                             <h1>we can spread love <br> by <span>donate!</span></h1>
-                                           <br>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                             <div class="slider-btn">
                                                 <a href="#" >donate now</a>
-                                                
+                                                <a href="#">learn more</a>
                                             </div>
                                             <!-- .slider-btn -->
                                         </div>
@@ -32,10 +32,10 @@
                                     <div class="container">
                                         <div class="slider-content">
                                             <h1>we can spread love <br> by <span>donate!</span></h1>
-                                            <br>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                             <div class="slider-btn">
                                                 <a href="#" >donate now</a>
-                                               
+                                                <a href="#">learn more</a>
                                             </div>
                                             <!-- .slider-btn -->
                                         </div>
@@ -54,10 +54,10 @@
                                     <div class="container">
                                         <div class="slider-content">
                                             <h1>we can spread love <br> by <span>donate!</span></h1>
-                                           <br>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                             <div class="slider-btn">
                                                 <a href="#" >donate now</a>
-                                               
+                                                <a href="#">learn more</a>
                                             </div>
                                             <!-- .slider-btn -->
                                         </div>
@@ -90,7 +90,7 @@
                     <!-- Who Content Start -->
                     <div class="who-content">
                         <h2>who we <span>are</span></h2>
-                        <p class="p-custom">Mithra SevaSamithi is a non-profit, registered society formed in the year 2008 under the guidance of Shri.N.Nagaraj(Founder), the idea of samithi was first coined by group of friends who had faced various problems in the society,which cannot be solved by one individual. Where they need a moral support and back-up, it is clear in their minds that an individual cannot change the things but a group can affect the society as a whole.</p>
+                        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dfasdf dfsadf dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</P>
                       
                     </div>
                     <!-- Who Content End -->
@@ -139,38 +139,6 @@
             </div>
         </div>
     </section>
-	<section class="causes-section  section-bg-clr1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <!-- Who Content Start -->
-                    <div class="who-content">
-                        <h2>Vision Of <span>Sammathi</span></h2>
-                        <p class="p-custom">By 2011, we will enable social, economic and political changes in samithi and expand its operations throughout the city with maximum membership to influence the political arena of Hyderabad City.</p>
-                      
-                    </div>
-                    <!-- Who Content End -->
-                </div>
-               
-            </div>
-        </div>
-    </section>
-	<section class="causes-section section-bg-clr">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <!-- Who Content Start -->
-                    <div class="who-content">
-                        <h2>Mission  Of<span>Sammithi</span></h2>
-                        <p class="p-custom">By 2011, we will enable social, economic and political changes in samithi and expand its operations throughout the city with maximum membership to influence the political arena of Hyderabad City.</p>
-                      
-                    </div>
-                    <!-- Who Content End -->
-                </div>
-               
-            </div>
-        </div>
-    </section>
 
     
     <section class="causes-section section-padding section-bg-clr1">
@@ -186,7 +154,7 @@
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  magna aliqua.
                         </p>
-                       
+                        <a href="events.php">see all causes</a>
                     </div>
                     <!-- Section heading End -->
                 </div>
@@ -618,7 +586,7 @@
                 <div class="col-md-12">
                     <!-- Section Heading Start -->
                     <div class="section-heading">
-                        <h2>Our <span>Members</span></h2>
+                        <h2>Who talk <span>about us</span></h2>
                         <span>
                             <img src="assets/images/icon.png" alt="icon">
                         </span>
@@ -644,7 +612,13 @@
                                                 <img src="assets/images/clients/1.jpg" alt="clients">
                                           </div>
                                       <div class="become-content">
-                                         
+                                          <ul>
+                                              <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                              <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                              <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                              <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                              <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                          </ul>
                                           <p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit,  incididunt ut labore et dolore magna aliqua.</p>
                                           <h4>John Doe</h4>
                                           <p>business man</p>
@@ -661,7 +635,13 @@
                                                 <img src="assets/images/clients/2.jpg" alt="clients">
                                           </div>
                                       <div class="become-content">
-                                       
+                                        <ul>
+                                              <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                              <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                              <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                              <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                              <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                          </ul>
                                           
                                           <p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit,  incididunt ut labore et dolore magna aliqua.</p>
                                           <h4>Saimon</h4>
