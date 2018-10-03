@@ -143,7 +143,7 @@
                                         </fieldset>
                                     </div>
                                     <div class="donation-submit">
-                                        <input type="submit" name="submit" value="donate now">
+                                        <a href="payment-confirm.php" class="btn btn-success">Procced for Payment</a>
                                     </div>
                                 </form>
                             </div>

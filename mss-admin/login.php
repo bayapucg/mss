@@ -1,121 +1,91 @@
-<?php include("header.php"); ?>
-<div class="content-wrapper">
-   <section class="content">
-      <div class="row">
-        <!-- left column -->
-        <div class="col-md-12">
-          <!-- general form elements -->
-          <div class="box box-primary">
-            <div class="box-header with-border">
-              <h3 class="box-title">Add Home Page Banners</h3>
-            </div>
-            <!-- /.box-header -->
-            <!-- form start -->
-			<div style="padding:20px;">
-            <form id="defaultForm" method="post" class="" action="banners.php">
-						
-						<div class="col-md-6 col-md-offset-3">
-							<div class="form-group">
-							  <label for="exampleInputFile">Upload Banner Here</label>
-							  <input class="form-control" type="file" id="exampleInputFile">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Mithra Seva Samtithi Admin Pannel</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="dist/css/custom.css">
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/bootstrapValidator.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- DataTables -->
+  <link rel="stylesheet" href="dist/css/dataTables.bootstrap.css">
+   <link rel="stylesheet" href="dist/css/select2.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="dist/css/_all-skins.min.css">
+  <!-- jQuery 2.2.3 -->
+<script src="dist/js/jquery-2.2.3.min.js"></script>
+<script src="dist/js/bootstrapValidator.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="dist/js/bootstrap.min.js"></script>
 
-							  
-							</div>
+
+</head>
+<body class="hold-transition login-page" style="background-image: url('dist/img/loginbac.png');background-repeat: no-repeat; background-size: cover;">
+<div class="login-box">
+  <div class="login-logo">
+       <span class="logo-lg"><b>Mss</b> Admin</span>
+  </div>
+  <!-- /.login-logo -->
+  <div class="login-box-body">
+    <p class="login-box-msg">Sign in to start your session</p>
+
+    
+						
+						<div class="">
+							<form id="defaultForm" method="post" class="" action="login.php">
 							<div class="form-group">
-								<label class=" control-label">Banners Text</label>
+								<label class=" control-label">Email Id</label>
 								<div class="">
-								<textarea name="firstName" class="form-control" rows="3" placeholder="Enter ..." =""></textarea>
+								<input type="email" name="email" class="form-control" placeholder="Enter Your Email Id" ="">
 								
 								</div>
 							</div>
-                        </div>	
-						
-						
-					
-						<div class="clearfix">&nbsp;</div>
+							<div class="form-group">
+								<label class=" control-label">Password</label>
+								<div class="">
+								<input type="password" name="password" class="form-control" placeholder="Enter Your Email Id" ="">
+								
+								</div>
+							</div>
+								
 						  <div class="form-group">
-                            <div class="col-lg-4 col-lg-offset-3">
-                                <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add Banner</button>
+                            <div class="col-md-6">
+                                <a  href="forgetpassword.php" >Forget Password?</a>
+								
+                                
+                            </div> 
+							<div class="col-md-6">
+                                <button type="submit" class="btn btn-primary pull-right" name="signup" value="Sign up">Login</button>
 								
                                 
                             </div>
                         </div>
-						
+							
                     </form>
-					<div class="clearfix">&nbsp;</div>
+                        </div>	
+						
+					<div class="clearfix">&nbsp;</div>	
 					
-          </div>
-          </div>
-          <!-- /.box -->
+					
+				
 
-         
+  
 
-        </div>
-		
-      
-        </div>
-		
-      
-      <!-- /.row -->
-    </section>
-	<section class="content">
-      <div class="row">
-        <div class="col-xs-12">
-		<div class="box">
-            <div class="box-header with-border">
-              <h3 class="box-title">Banners List </h3>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <table id="example1" class="table table-bordered table-striped">
-                <thead>
-                <tr>
-                  <th>Banner</th>
-                  <th>Content</th>
-                  <th>Action</th>
-                
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td><img style="width:100px;height:auto;" src="dist/img/ban1.jpg"></td>
-                  <td>We Can Spread Love By Donate!</td>
-                  <td>
-					<button class="btn btn-sm btn-warning"> Edit</button>
-					<button class="btn btn-sm btn-danger"> Delete</button>
-				  </td>
-              
-                </tr>
-                
-                
-                </tbody>
-                
-              </table>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row -->
-    </section>
-	
+  </div>
+  <!-- /.login-box-body -->
 </div>
-  <script>
-  $(function () {
-    $("#example1").DataTable();
-    $('#example2').DataTable({
-      "paging": true,
-      "lengthChange": false,
-      "searching": false,
-      "ordering": true,
-      "info": true,
-      "autoWidth": false
-    });
-  });
-</script>
-  <script type="text/javascript">
+
+<script type="text/javascript">
 $(document).ready(function() {
 	    $(".select2").select2();
     // Generate a simple captcha
@@ -267,4 +237,18 @@ $(document).ready(function() {
     });
 });
 </script>
-<?php include("footer.php"); ?>
+<!-- DataTables -->
+<script src="dist/js/jquery.dataTables.min.js"></script>
+<script src="dist/js/dataTables.bootstrap.min.js"></script>
+<script src="dist/js/select2.full.min.js"></script>
+<!-- SlimScroll -->
+<script src="dist/js/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="dist/js/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/app.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+<script src="https://cdn.ckeditor.com/4.5.7/standard/ckeditor.js"></script>
+</body>
+</html>
