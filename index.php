@@ -1,882 +1,318 @@
-<?php include("header.php"); ?>
-    <section class="banner-section">
-        <div class="slider-option">
-            <div id="slider" class="carousel slide wow fadeInDown" data-ride="carousel">
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <div class="slider-item">
-                                <img src="assets/images/background/1.jpg" alt="slider">
-                                <div class="slider-content-area">
-                                    <div class="container">
-                                        <div class="slider-content">
-                                            <h1>we can spread love <br> by <span>donate!</span></h1>
-                                           <br>
-                                            <div class="slider-btn">
-                                                <a href="#" >donate now</a>
-                                                
-                                            </div>
-                                            <!-- .slider-btn -->
-                                        </div>
-                                        <!-- .carousel-caption -->
-                                    </div>
-                                    <!-- .container -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- .items -->
-                        <div class=" item ">
-                            <div class="slider-item">
-                                <img src="assets/images/background/2.jpg" alt="slider">
-                                <div class="slider-content-area">
-                                    <div class="container">
-                                        <div class="slider-content">
-                                            <h1>we can spread love <br> by <span>donate!</span></h1>
-                                            <br>
-                                            <div class="slider-btn">
-                                                <a href="#" >donate now</a>
-                                               
-                                            </div>
-                                            <!-- .slider-btn -->
-                                        </div>
-                                        <!-- .carousel-caption -->
-                                    </div>
-                                    <!-- .container -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- .items -->
-                        <!-- .items -->
-                        <div class=" item ">
-                            <div class="slider-item">
-                                <img src="assets/images/background/3.jpg" alt="slider">
-                                <div class="slider-content-area">
-                                    <div class="container">
-                                        <div class="slider-content">
-                                            <h1>we can spread love <br> by <span>donate!</span></h1>
-                                           <br>
-                                            <div class="slider-btn">
-                                                <a href="#" >donate now</a>
-                                               
-                                            </div>
-                                            <!-- .slider-btn -->
-                                        </div>
-                                        <!-- .carousel-caption -->
-                                    </div>
-                                    <!-- .container -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- .items -->
-                    </div>
-                    <!-- .carosoul-inner -->
-                    <a class="left carousel-control" href="#slider" role="button" data-slide="prev">
-                        <span class="fa fa-angle-left" aria-hidden="true"></span>
-                    </a>
-                    <a class="right carousel-control" href="#slider" role="button" data-slide="next">
-                        <span class="fa fa-angle-right" aria-hidden="true"></span>
-                    </a>
-                </div>
-            </div>
-            <!-- .slider-option -->
+<?php
+date_default_timezone_set('Asia/Kolkata');
+?>
+<?php
+/**
+ * CodeIgniter
+ *
+ * An open source application development framework for PHP
+ *
+ * This content is released under the MIT License (MIT)
+ *
+ * Copyright (c) 2014 - 2017, British Columbia Institute of Technology
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * @package	CodeIgniter
+ * @author	EllisLab Dev Team
+ * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
+ * @copyright	Copyright (c) 2014 - 2017, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	https://codeigniter.com
+ * @since	Version 1.0.0
+ * @filesource
+ */
 
-    </section>
-   
+/*
+ *---------------------------------------------------------------
+ * APPLICATION ENVIRONMENT
+ *---------------------------------------------------------------
+ *
+ * You can load different configurations depending on your
+ * current environment. Setting the environment also influences
+ * things like logging and error reporting.
+ *
+ * This can be set to anything, but default usage is:
+ *
+ *     development
+ *     testing
+ *     production
+ *
+ * NOTE: If you change these, also change the error_reporting() code below
+ */
+	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
 
-    <section class="who-section section-padding2 section-bg-clr">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 col-sm-12">
-                    <!-- Who Content Start -->
-                    <div class="who-content">
-                        <h2>who we <span>are</span></h2>
-                        <p class="p-custom">Mithra SevaSamithi is a non-profit, registered society formed in the year 2008 under the guidance of Shri.N.Nagaraj(Founder), the idea of samithi was first coined by group of friends who had faced various problems in the society,which cannot be solved by one individual. Where they need a moral support and back-up, it is clear in their minds that an individual cannot change the things but a group can affect the society as a whole.</p>
-                      
-                    </div>
-                    <!-- Who Content End -->
-                </div>
-                <div class="col-md-7 col-sm-12">
-                    <!-- Who List Start -->
-                    <div class="who-list col-md-4">
-                        <div class="who-thumb">
-                            <i class="fa fa-usd" aria-hidden="true"></i>
-                        </div>
-                        <div class="who-content">
-                            <h4>donation</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                            </p>
-                           
-                        </div>
-                    </div>
-                    <!-- Who List End -->
-                    <!-- Who List Start -->
-                    <div class="who-list col-md-4">
-                        <div class="who-thumb">
-                            <i class="fa fa-users" aria-hidden="true"></i>
-                        </div>
-                        <div class="who-content">
-                            <h4>volunteers</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                            </p>
-                           
-                        </div>
-                    </div>
-                    <!-- Who List End -->
-                    <!-- Who List Start -->
-                    <div class="who-list col-md-4">
-                        <div class="who-thumb">
-                            <i class="fa fa-bar-chart" aria-hidden="true"></i>
-                        </div>
-                        <div class="who-content">
-                            <h4>fundraise</h4>
-                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                            </p>
-                           
-                        </div>
-                    </div>
-                    <!-- Who List End -->
-                </div>
-            </div>
-        </div>
-    </section>
-	<section class="causes-section  section-bg-clr1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <!-- Who Content Start -->
-                    <div class="who-content">
-                        <h2>Vision Of <span>Sammathi</span></h2>
-                        <p class="p-custom">By 2011, we will enable social, economic and political changes in samithi and expand its operations throughout the city with maximum membership to influence the political arena of Hyderabad City.</p>
-                      
-                    </div>
-                    <!-- Who Content End -->
-                </div>
-               
-            </div>
-        </div>
-    </section>
-	<section class="causes-section section-bg-clr">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <!-- Who Content Start -->
-                    <div class="who-content">
-                        <h2>Mission  Of<span>Sammithi</span></h2>
-                        <p class="p-custom">By 2011, we will enable social, economic and political changes in samithi and expand its operations throughout the city with maximum membership to influence the political arena of Hyderabad City.</p>
-                      
-                    </div>
-                    <!-- Who Content End -->
-                </div>
-               
-            </div>
-        </div>
-    </section>
+/*
+ *---------------------------------------------------------------
+ * ERROR REPORTING
+ *---------------------------------------------------------------
+ *
+ * Different environments will require different levels of error reporting.
+ * By default development will show errors but testing and live will hide them.
+ */
+switch (ENVIRONMENT)
+{
+	case 'development':
+		error_reporting(-1);
+		ini_set('display_errors', 1);
+	break;
 
-    
-    <section class="causes-section section-padding section-bg-clr1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- Section Heading Start -->
-                    <div class="section-heading section-heading1">
-                        <h2>our <span>causes</span></h2>
-                        <span>
-                            <img src="assets/images/icon.png" alt="icon">
-                        </span>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  magna aliqua.
-                        </p>
-                       
-                    </div>
-                    <!-- Section heading End -->
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <!-- Causes List Start -->
-                    <div class="causes-list">
-                        <div class="causes-thumb">
-                            <img src="assets/images/causes/1.jpg" alt="causes">
-                        </div>
-                        <div class="causes-content">
-                            <div class="causes-text">
-                                <h4>donate for water</h4>
-                                <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                                <a href="causes-single.html">donate now</a>
-                            </div>
-                        </div>
-                     
-                    </div>
-                    <!-- Causes List End -->
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <!-- Causes List Start -->
-                    <div class="causes-list">
-                        <div class="causes-thumb">
-                            <img src="assets/images/causes/2.jpg" alt="causes">
-                        </div>
-                        <div class="causes-content">
-                            <div class="causes-text">
-                                <h4>donate for food</h4>
-                                <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor. </p>
-                                <a href="#">donate now</a>
-                            </div>
-                        </div>
-                      
-                    </div>
-                    <!-- Causes List End -->
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <!-- Causes List Start -->
-                    <div class="causes-list">
-                        <div class="causes-thumb">
-                            <img src="assets/images/causes/3.jpg" alt="causes">
-                            
-                        </div>
-                        <div class="causes-content">
-                            <div class="causes-text">
-                                <h4>donate for blood</h4>
-                                <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                                <a href="causes-single.html">donate now</a>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <!-- Causes List End -->
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <!-- Causes List Start -->
-                    <div class="causes-list">
-                        <div class="causes-thumb">
-                            <img src="assets/images/causes/4.jpg" alt="causes">
-                        </div>
-                        <div class="causes-content">
-                            <div class="causes-text">
-                                <h4>donate for victims</h4>
-                                <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor. </p>
-                                <a href="causes-single.html">donate now</a>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <!-- Causes List End -->
-                </div>
-            </div>
-        </div>
-    </section>
+	case 'testing':
+	case 'production':
+		ini_set('display_errors', 0);
+		if (version_compare(PHP_VERSION, '5.3', '>='))
+		{
+			error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED & ~E_STRICT & ~E_USER_NOTICE & ~E_USER_DEPRECATED);
+		}
+		else
+		{
+			error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_USER_NOTICE);
+		}
+	break;
+
+	default:
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'The application environment is not set correctly.';
+		exit(1); // EXIT_ERROR
+}
+
+/*
+ *---------------------------------------------------------------
+ * SYSTEM DIRECTORY NAME
+ *---------------------------------------------------------------
+ *
+ * This variable must contain the name of your "system" directory.
+ * Set the path if it is not in the same directory as this file.
+ */
+	$system_path = 'system';
+
+/*
+ *---------------------------------------------------------------
+ * APPLICATION DIRECTORY NAME
+ *---------------------------------------------------------------
+ *
+ * If you want this front controller to use a different "application"
+ * directory than the default one you can set its name here. The directory
+ * can also be renamed or relocated anywhere on your server. If you do,
+ * use an absolute (full) server path.
+ * For more info please see the user guide:
+ *
+ * https://codeigniter.com/user_guide/general/managing_apps.html
+ *
+ * NO TRAILING SLASH!
+ */
+	$application_folder = 'application';
+
+/*
+ *---------------------------------------------------------------
+ * VIEW DIRECTORY NAME
+ *---------------------------------------------------------------
+ *
+ * If you want to move the view directory out of the application
+ * directory, set the path to it here. The directory can be renamed
+ * and relocated anywhere on your server. If blank, it will default
+ * to the standard location inside your application directory.
+ * If you do move this, use an absolute (full) server path.
+ *
+ * NO TRAILING SLASH!
+ */
+	$view_folder = '';
+
+
+/*
+ * --------------------------------------------------------------------
+ * DEFAULT CONTROLLER
+ * --------------------------------------------------------------------
+ *
+ * Normally you will set your default controller in the routes.php file.
+ * You can, however, force a custom routing by hard-coding a
+ * specific controller class/function here. For most applications, you
+ * WILL NOT set your routing here, but it's an option for those
+ * special instances where you might want to override the standard
+ * routing in a specific front controller that shares a common CI installation.
+ *
+ * IMPORTANT: If you set the routing here, NO OTHER controller will be
+ * callable. In essence, this preference limits your application to ONE
+ * specific controller. Leave the function name blank if you need
+ * to call functions dynamically via the URI.
+ *
+ * Un-comment the $routing array below to use this feature
+ */
+	// The directory name, relative to the "controllers" directory.  Leave blank
+	// if your controller is not in a sub-directory within the "controllers" one
+	// $routing['directory'] = '';
+
+	// The controller class file name.  Example:  mycontroller
+	// $routing['controller'] = '';
+
+	// The controller function you wish to be called.
+	// $routing['function']	= '';
+
+
+/*
+ * -------------------------------------------------------------------
+ *  CUSTOM CONFIG VALUES
+ * -------------------------------------------------------------------
+ *
+ * The $assign_to_config array below will be passed dynamically to the
+ * config class when initialized. This allows you to set custom config
+ * items or override any default config values found in the config.php file.
+ * This can be handy as it permits you to share one application between
+ * multiple front controller files, with each file containing different
+ * config values.
+ *
+ * Un-comment the $assign_to_config array below to use this feature
+ */
+	// $assign_to_config['name_of_config_item'] = 'value of config item';
 
 
 
-    <section class="counter-section section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <!-- Counter List Start -->
-                        <div class="counter-list">
-                            <div class="counter-thumb"><i class="fa fa-bitbucket" aria-hidden="true"></i></div>
-                            <div class="counter-content">
-                                <h3 class="counter">1000</h3>
-                                <p>donate</p>
-                            </div>
-                        </div>
-                        <!-- Counter List End -->
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <!-- Counter List Start -->
-                        <div class="counter-list">
-                            <div class="counter-thumb"><i class="fa fa-user" aria-hidden="true"></i></div>
-                            <div class="counter-content">
-                                <h3 class="counter">60</h3>
-                                <p>volunteers</p>
-                            </div>
-                        </div>
-                        <!-- Counter List End -->
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <!-- Counter List Start -->
-                        <div class="counter-list">
-                            <div class="counter-thumb"><i class="fa fa-calculator" aria-hidden="true"></i></div>
-                            <div class="counter-content">
-                                <h3 class="counter">500</h3>
-                                <p>Events</p>
-                            </div>
-                        </div>
-                        <!-- Counter List End -->
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <!-- Counter List Start -->
-                        <div class="counter-list">
-                            <div class="counter-thumb"><i class="fa fa-gift" aria-hidden="true"></i></div>
-                            <div class="counter-content">
-                                <h3 class="counter">100</h3>
-                                <p>gifts</p>
-                            </div>
-                        </div>
-                        <!-- Counter List End -->
-                    </div>
-                </div>
-            </div>
-    </section>
+// --------------------------------------------------------------------
+// END OF USER CONFIGURABLE SETTINGS.  DO NOT EDIT BELOW THIS LINE
+// --------------------------------------------------------------------
 
-    <!--==================================
-    ===== Counter Section End ===========
-    ===================================-->
+/*
+ * ---------------------------------------------------------------
+ *  Resolve the system path for increased reliability
+ * ---------------------------------------------------------------
+ */
 
-    <!--==================================
-    ===== Our Volunters Start ===========
-    ===================================-->
+	// Set the current directory correctly for CLI requests
+	if (defined('STDIN'))
+	{
+		chdir(dirname(__FILE__));
+	}
 
-    <section class="volunters-section section-padding section-bg-clr1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- Section Heading Start -->
-                    <div class="section-heading">
-                        <h2>our <span>volunters</span></h2>
-                        <span>
-                            <img src="assets/images/icon.png" alt="icon">
-                        </span>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </div>
-                    <!-- Section heading End -->
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <!-- Volunter List Start -->
-                    <div class="volunter-list">
-                    <!-- Volunter Thumb Start -->
-                        <div class="volunter-thumb">
-                            <img class="img-responsive img-thumbnail" src="assets/images/volunters/founder.png" alt="volunter">
-                            
-                        </div>
-                        <!-- Volunter Thumb End -->
-                        <!-- Volunter Content Start -->
-                        <div class="volunter-content">
-                            <h4>Nathi Naga Raju Garu</h4>
-                            <p>Founder</p>
-                        
-                        </div>
-                        <!-- Volunter COntent End -->
-                    </div>
-                    <!-- Volunter List End -->
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <!-- Volunter List Start -->
-                    <div class="volunter-list">
-                        <div class="volunter-thumb">
-                            <img class="img-responsive img-thumbnail" src="assets/images/volunters/president.png" alt="volunter">
-                            
-                        </div>
-                        <div class="volunter-content">
-                            <h4>Ch Murail Garu</h4>
-                            <p>President</p>
-                        </div>
-                    </div>
-                    <!-- Volunter List End -->
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <!-- Volunter List Start -->
-                    <div class="volunter-list">
-                        <div class="volunter-thumb">
-                            <img class="img-responsive img-thumbnail" src="assets/images/volunters/working-president.png" alt="volunter">
-                            
-                        </div>
-                        <div class="volunter-content">
-                            <h4>Nirmala Thakur</h4>
-                            <p>Work President</p>
-                        </div>
-                    </div>
-                    <!-- Volunter List End -->
-                </div>
-            </div>
-        </div>
-    </section>
-   
+	if (($_temp = realpath($system_path)) !== FALSE)
+	{
+		$system_path = $_temp.DIRECTORY_SEPARATOR;
+	}
+	else
+	{
+		// Ensure there's a trailing slash
+		$system_path = strtr(
+			rtrim($system_path, '/\\'),
+			'/\\',
+			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+		).DIRECTORY_SEPARATOR;
+	}
 
-    <section class="joining-section section-padding section-bg-clr2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6" >
-                    <!-- Section Heading Start -->
-                    <div class="section-heading section-heading2">
-                        <h2>Become <span>volunters</span></h2>
-                        <span>
-                            <img src="assets/images/icon.png" alt="icon">
-                        </span>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                        <div class="join-button">
-                            <a href="#">Join Now</a>
-                        </div>
-                        
-                    </div>
-                    <!-- Section heading End -->
-                </div>
-            </div>
-        </div>
-    </section>
+	// Is the system path correct?
+	if ( ! is_dir($system_path))
+	{
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'Your system folder path does not appear to be set correctly. Please open the following file and correct this: '.pathinfo(__FILE__, PATHINFO_BASENAME);
+		exit(3); // EXIT_CONFIG
+	}
 
-    <!--==================================
-    ===== Become Joining Section End ======
-    ===================================-->
+/*
+ * -------------------------------------------------------------------
+ *  Now that we know the path, set the main path constants
+ * -------------------------------------------------------------------
+ */
+	// The name of THIS file
+	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
 
+	// Path to the system directory
+	define('BASEPATH', $system_path);
 
-    <section id="portfolio" class="gallery section-padding section-background">
-          <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- Section Heading Start -->
-                    <div class="section-heading">
-                        <h2>Our <span>Gallery</span></h2>
-                        <span>
-                            <img src="assets/images/icon.png" alt="icon">
-                        </span>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </div>
-                    <!-- Section heading End -->
-                </div>
-            </div>
-              <div class="row">
-                      <div class=" col-md-12">
-                          <div id="isotopemenu">
-                              <ul>
-                                  <li class="all active" data-filter="*"><p>all</p></li>
-                                  <li data-filter=".chartiy" class=""><p>Charity</p></li>
-                                  <li data-filter=".nature" class=""><p>Nature</p></li>
-                                  <li data-filter=".wildlife" class=""><p>wildlife</p></li>
-                                  <li data-filter=".children" ><p>children</p></li>
-                              </ul>
-                          </div>
-                          <div id="galleryitems">
-                              <div class="chartiy single-item">
-                                  <div class="single-isotope">
-                                      <div class="layer">
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="assets/images/gallery/1.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="assets/images/gallery/1.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="nature single-item" >
-                                  <div class="single-isotope">
-                                      <div class="layer">
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="assets/images/gallery/2.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="assets/images/gallery/2.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="children chartiy single-item" >
-                                  <div class="single-isotope">
-                                      <div class="layer">
+	// Path to the front controller (this file) directory
+	define('FCPATH', dirname(__FILE__).DIRECTORY_SEPARATOR);
 
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="assets/images/gallery/3.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="assets/images/gallery/3.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="nature single-item" >
-                                  <div class="single-isotope">
-                                      <div class="layer">
+	// Name of the "system" directory
+	define('SYSDIR', basename(BASEPATH));
 
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="assets/images/gallery/4.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="assets/images/gallery/4.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="wildlife single-item" >
-                                  <div class="single-isotope">
-                                      <div class="layer">
+	// The path to the "application" directory
+	if (is_dir($application_folder))
+	{
+		if (($_temp = realpath($application_folder)) !== FALSE)
+		{
+			$application_folder = $_temp;
+		}
+		else
+		{
+			$application_folder = strtr(
+				rtrim($application_folder, '/\\'),
+				'/\\',
+				DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+			);
+		}
+	}
+	elseif (is_dir(BASEPATH.$application_folder.DIRECTORY_SEPARATOR))
+	{
+		$application_folder = BASEPATH.strtr(
+			trim($application_folder, '/\\'),
+			'/\\',
+			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+		);
+	}
+	else
+	{
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'Your application folder path does not appear to be set correctly. Please open the following file and correct this: '.SELF;
+		exit(3); // EXIT_CONFIG
+	}
 
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="assets/images/gallery/5.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="assets/images/gallery/5.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="charity single-item" >
-                                  <div class="single-isotope">
-                                      <div class="layer">
+	define('APPPATH', $application_folder.DIRECTORY_SEPARATOR);
 
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="assets/images/gallery/6.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="assets/images/gallery/6.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="nature chartiy single-item">
-                                  <div class="single-isotope">
-                                      <div class="layer">
+	// The path to the "views" directory
+	if ( ! isset($view_folder[0]) && is_dir(APPPATH.'views'.DIRECTORY_SEPARATOR))
+	{
+		$view_folder = APPPATH.'views';
+	}
+	elseif (is_dir($view_folder))
+	{
+		if (($_temp = realpath($view_folder)) !== FALSE)
+		{
+			$view_folder = $_temp;
+		}
+		else
+		{
+			$view_folder = strtr(
+				rtrim($view_folder, '/\\'),
+				'/\\',
+				DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+			);
+		}
+	}
+	elseif (is_dir(APPPATH.$view_folder.DIRECTORY_SEPARATOR))
+	{
+		$view_folder = APPPATH.strtr(
+			trim($view_folder, '/\\'),
+			'/\\',
+			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+		);
+	}
+	else
+	{
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'Your view folder path does not appear to be set correctly. Please open the following file and correct this: '.SELF;
+		exit(3); // EXIT_CONFIG
+	}
 
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="assets/images/gallery/7.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="assets/images/gallery/7.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="wildlife children single-item">
-                                  <div class="single-isotope">
-                                      <div class="layer">
+	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
 
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="assets/images/gallery/8.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="assets/images/gallery/8.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="children nature single-item" >
-                                  <div class="single-isotope">
-                                      <div class="layer">
-
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="assets/images/gallery/9.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="assets/images/gallery/9.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="wildlife charity single-item">
-                                  <div class="single-isotope">
-                                      <div class="layer">
-
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="assets/images/gallery/10.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="assets/images/gallery/10.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="wildlife charity single-item">
-                                  <div class="single-isotope">
-                                      <div class="layer">
-
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="assets/images/gallery/11.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="assets/images/gallery/11.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="nature wildlife single-item">
-                                  <div class="single-isotope">
-                                      <div class="layer">
-
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="assets/images/gallery/12.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="assets/images/gallery/12.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-              </div>
-             
-          </div>
-    </section>
-
-
-
-
-
-
-    <!--==================================
-    ===== Become volunter Section Start ======
-    ===================================-->
-
-    <section class="clients-section section-padding ">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- Section Heading Start -->
-                    <div class="section-heading">
-                        <h2>Our <span>Members</span></h2>
-                        <span>
-                            <img src="assets/images/icon.png" alt="icon">
-                        </span>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </div>
-                    <!-- Section heading End -->
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- volunter List Start -->
-                    <div class="become-list">
-                        <!-- Swiper -->
-                        <div class="swiper-container volunter-container">
-                            <div class="swiper-wrapper">
-                              <div class="swiper-slide">
-                                <!-- volunter Item Start -->
-                                  <div class="become-item">
-                                    <div class="become-item1">
-                                        <div class="become-thumb">
-                                                <img src="assets/images/clients/1.jpg" alt="clients">
-                                          </div>
-                                      <div class="become-content">
-                                         
-                                          <p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit,  incididunt ut labore et dolore magna aliqua.</p>
-                                          <h4>John Doe</h4>
-                                          <p>business man</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- volunter Item End -->
-                              </div>
-                              <div class="swiper-slide">
-                                <!-- volunter Item Start -->
-                                  <div class="become-item">
-                                    <div class="become-item1">
-                                          <div class="become-thumb">
-                                                <img src="assets/images/clients/2.jpg" alt="clients">
-                                          </div>
-                                      <div class="become-content">
-                                       
-                                          
-                                          <p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit,  incididunt ut labore et dolore magna aliqua.</p>
-                                          <h4>Saimon</h4>
-                                          <p>Team Leader</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <!-- volunter Item End -->
-                              </div>
-                            </div>
-                            <!-- Add Pagination -->
-                            <div class="swiper-pagination">
-                                
-                            </div>
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"><i class="fa fa-angle-double-right" aria-hidden="true"></i></div>
-                            <div class="swiper-button-prev"><i class="fa fa-angle-double-left" aria-hidden="true"></i></div>
-                        </div>
-                    </div>
-                    <!-- volunter List End -->
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--==================================
-    ===== Become Volunter Section End ===========
-    ===================================-->
-
-
-    <!--==================================
-    ===== Upcoming Section Start ===========
-    ===================================-->
-    
-    <section class="upcoming-section section-padding section-bg-clr1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- Section Heading Start -->
-                    <div class="section-heading section-heading1">
-                        <h2>Upcoming <span>Events</span></h2>
-                        <span>
-                            <img src="assets/images/icon.png" alt="icon">
-                        </span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        
-                    </div>
-                    <!-- Section Heading End -->
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                   <!-- Swiper -->
-                        <div class="swiper-container upcoming-container">
-                            <div class="swiper-wrapper">
-                              <div class="swiper-slide">
-                                <!-- Upcoming List Start -->
-                                <div class="upcoming-list">
-                                    <div class="upcoming-thumb">
-                                        <img src="assets/images/events/17.jpg" alt="events">
-                                    </div>
-                                        <div class="upcoming-text">
-                                            <h4><a href="event-single.html">feed a hungry child</a></h4>
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <div class="upcoming-comment">
-                                                <ul>
-                                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i><span>9.30 AM</span></li>
-                                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Sanfransico, CA</span></li>
-                                                    
-                                                    
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="upcoming-date">
-                                            <p>28th</p>
-                                            <span>june</span>
-                                            <a href="#">joined event</a>
-                                        </div>
-                                </div>
-                                <!-- Upcoming List End -->
-                              </div>
-                              <div class="swiper-slide">
-                                <!-- Upcoming List Start -->
-                                <div class="upcoming-list">
-                                    <div class="upcoming-thumb">
-                                        <img src="assets/images/events/18.jpg" alt="events">
-                                    </div>
-                                        <div class="upcoming-text">
-                                            <h4><a href="event-single.html">feed a hungry child</a></h4>
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <div class="upcoming-comment">
-                                                <ul>
-                                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i><span>9.30 AM</span></li>
-                                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Sanfransico, CA</span></li>
-                                                    
-                                                    
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="upcoming-date">
-                                            <p>28th</p>
-                                            <span>june</span>
-                                            <a href="#">joined event</a>
-                                        </div>
-                                </div>
-                                <!-- Upcoming List End -->
-                              </div>
-                              <div class="swiper-slide">
-                                <!-- Upcoming List Start -->
-                                <div class="upcoming-list">
-                                    <div class="upcoming-thumb">
-                                        <img src="assets/images/events/19.jpg" alt="events">
-                                    </div>
-                                        <div class="upcoming-text">
-                                            <h4><a href="event-single.html">feed a hungry child</a></h4>
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <div class="upcoming-comment">
-                                                <ul>
-                                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i><span>9.30 AM</span></li>
-                                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Sanfransico, CA</span></li>
-                                                    
-                                                    
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="upcoming-date">
-                                            <p>28th</p>
-                                            <span>june</span>
-                                            <a href="#">joined event</a>
-                                        </div>
-                                </div>
-                                <!-- Upcoming List End -->
-                              </div>
-                              <div class="swiper-slide">
-                                <!-- Upcoming List Start -->
-                                <div class="upcoming-list">
-                                    <div class="upcoming-thumb">
-                                        <img src="assets/images/events/20.jpg" alt="events">
-                                    </div>
-                                        <div class="upcoming-text">
-                                            <h4><a href="event-single.html">feed a hungry child</a></h4>
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <div class="upcoming-comment">
-                                                <ul>
-                                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i><span>9.30 AM</span></li>
-                                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Sanfransico, CA</span></li>
-                                                    
-                                                    
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="upcoming-date">
-                                            <p>28th</p>
-                                            <span>june</span>
-                                            <a href="#">joined event</a>
-                                        </div>
-                                </div>
-                                <!-- Upcoming List End -->
-                              </div>
-                            </div>
-                            
-                        </div>
-                </div>
-                 
-
-            </div>
-        </div>
-    </section>
-
-
-
-     <!--==================================
-    ===== Sponsors Section Start ===========
-    ===================================-->
-    
-    <section class=" sponsor-section section-padding ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-heading">
-                            <h2>our <span>sponsers</span></h2>
-                            <span><img src="assets/images/icon.png" alt="icon"></span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  magna aliqua.
-                                </p>
-                        </div><!-- section-heading -->
-                        <div class="section-wrapper">
-                            <div class="client-list">
-                                <!-- Swiper -->
-                                    <div class="swiper-container client-container">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide"><div class="our-client"><a href="#"><img src="assets/images/clients/client1.png" alt="client"></a></div></div>
-                                            <div class="swiper-slide"><div class="our-client"><a href="#"><img src="assets/images/clients/client2.png" alt="client"></a></div></div>
-                                            <div class="swiper-slide"><div class="our-client"><a href="#"><img src="assets/images/clients/client3.png" alt="client"></a></div></div>
-                                            <div class="swiper-slide"><div class="our-client"><a href="#"><img src="assets/images/clients/client4.png" alt="client"></a></div></div>
-                                            <div class="swiper-slide"><div class="our-client"><a href="#"><img src="assets/images/clients/client5.png" alt="client"></a></div></div>
-                                            <div class="swiper-slide"><div class="our-client"><a href="#"><img src="assets/images/clients/client6.png" alt="client"></a></div></div>
-                                            <div class="swiper-slide"><div class="our-client"><a href="#"><img src="assets/images/clients/client1.png" alt="client"></a></div></div>
-                                            <div class="swiper-slide"><div class="our-client"><a href="#"><img src="assets/images/clients/client2.png" alt="client"></a></div></div>
-                                        </div>
-                                        <!-- Add Arrows -->
-                                        <div class="swiper-button-next">
-                                            
-                                            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                                            
-                                        </div>
-                                        <div class="swiper-button-prev">
-                                            <i class="fa fa-angle-double-left" aria-hidden="true"></i>
-                                        </div>
-                                    </div><!-- client container -->
-                            </div><!-- client list-->
-                        </div><!-- swiper wrapper -->
-                    </div>
-
-                </div><!-- row -->
-            </div><!-- container -->
-        </section><!-- section -->
-<?php include("footer.php"); ?>
-       
+/*
+ * --------------------------------------------------------------------
+ * LOAD THE BOOTSTRAP FILE
+ * --------------------------------------------------------------------
+ *
+ * And away we go...
+ */
+require_once BASEPATH.'core/CodeIgniter.php';
