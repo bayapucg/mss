@@ -293,6 +293,9 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+.pl-10{
+    padding: 10px;
+}
 /**
  *  - Clearings
  */
