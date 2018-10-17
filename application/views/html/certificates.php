@@ -20,9 +20,8 @@
                     <div class="section-heading ">
                         <h2>Our <span>CERTIFICATES</span></h2>
                         <span>
-                            <img src="<?php echo base_url(); ?><?php echo base_url(); ?>assets/vendor/images/icon.png" alt="icon">
+                            <img src="<?php echo base_url(); ?>assets/vendor/images/icon.png" alt="icon">
                         </span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                     <!-- Section Heading End -->
                 </div>

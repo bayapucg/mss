@@ -39,8 +39,9 @@
                                                
                                                 
                                                 <ul>
-                                                   <div>11-2-472/2/1/B, Beside, Nehru Priamary School, Namalagundu, Secunderbad - 500036</div>
+                                                   <div>11-2-472/2/1/B, Beside, Nehru Primary School, Namalagundu, Secunderabad - 500036</div>
                                                     <li><i class="fa fa-phone"></i><span>+91 9989819807</span></li>
+                                                    <li><i class="fa fa-phone"></i><span>+91 9390908686</span></li>
                                                     <li><i class="fa fa-envelope"></i><span>info@mithrasevasamthi.com</span></li>
                                                 </ul>
 
