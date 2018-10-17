@@ -449,7 +449,7 @@ blockquote:after,
   margin: 0 auto;
   margin-top: 16px;
   font-weight: 400;
-  max-width: 550px;
+  max-width: 950px;
   line-height: 24px;
   font-size: 16px;
   color: #737271;
@@ -1715,8 +1715,7 @@ blockquote:after,
 }
 .who-list {
   text-align: center;
-
-
+  min-height: 356px;
   padding-bottom: 30px;
 
   border:1px solid #ddd;
@@ -1822,7 +1821,16 @@ blockquote:after,
   position: relative;
 }
 .causes-list .causes-thumb img {
-  width: 100%;
+    width: 100%;
+    min-height: 170px;
+    max-height: 170px;
+}
+@media (max-width:768px){
+    .causes-list .causes-thumb img{
+        width: 100%;
+        min-height: 290px;
+        max-height: 290px;
+    }
 }
 .causes-list .causes-thumb:after {
   content: "";
@@ -2245,18 +2253,40 @@ blockquote:after,
 .upcoming-list:hover .upcoming-content .upcoming-text h4 a {
   color: #ff7107;
 }
-.upcoming-list .upcoming-thumb {
+
+.swiper-slide .upcoming-list .upcoming-thumb {
   float: left;
   margin-right: 10px;
   padding: 20px 0px;
   padding-left: 20px;
 }
+.swiper-slide .upcoming-list .upcoming-thumb img{
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 110px;
+}
+.upcoming-list .upcoming-thumb {
+  margin-right: 10px;
+  padding: 20px 0px;
+  padding-left: 20px;
+}
+.upcoming-list .upcoming-thumb img{
+    width: 100%;
+    min-height: 290px;
+    max-height: 290px;
+}
 @media screen and (max-width: 768px) {
   .upcoming-list .upcoming-thumb {
     float: none;
   }
+  .swiper-slide .upcoming-list .upcoming-thumb {
+    float: none;
+  }
   .upcoming-list .upcoming-thumb img {
-    width: 100%;
+      width: 100%;
+      min-height: 230px;
+      max-height: 230px;
   }
 }
 .upcoming-list .upcoming-text {
@@ -2612,7 +2642,7 @@ blockquote:after,
   float: left;
   margin-right: 25px;
   background-color: #383634;
-  height: 90px;
+  height: 120px;
   width: 60px;
   text-align: center;
   padding: 15px 0px;
@@ -4811,7 +4841,8 @@ aside .widget-donation .more-donation p {
   box-shadow: 0px 0px 10px 3px rgba(222, 222, 222, 0.5);
   text-align: center;
   padding: 20px 20px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
+  min-height: 369px;
 }
 .whopage-content .whopage-text i {
   font-size: 35px;

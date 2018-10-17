@@ -23,7 +23,7 @@
                         <span>
                             <img src="<?php echo base_url(); ?>assets/vendor/images/icon.png" alt="icon">
                         </span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Keep up to date with our events & programs.</p>
                     </div>
                     <!-- Section Heading End -->
                 </div>
@@ -43,9 +43,9 @@
                         <div class="upcoming-content">
                             
                             <div class="upcoming-text">
-                                <h4><a href="blog-single.html">feed a hungry child</a></h4>
+                                <h4><a href="#">feed a hungry child</a></h4>
                                
-                                <p>Lorem ipsum dolor sit amet, consectrtur adipisicing slit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                <p>One of the greatest feelings in the world is knowing that we as individuals can make a difference. Ending hunger in India is a goal, that is literally within our grasp.</p>
                                 
                             </div>
                         </div>
@@ -65,9 +65,9 @@
                         <div class="upcoming-content">
                             
                             <div class="upcoming-text">
-                                <h4><a href="blog-single.html">feed a hungry child</a></h4>
+                                <h4><a href="#">feed a hungry child</a></h4>
                                
-                                <p>Lorem ipsum dolor sit amet, consectrtur adipisicing slit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                <p>One of the greatest feelings in the world is knowing that we as individuals can make a difference. Ending hunger in India is a goal, that is literally within our grasp.</p>
                                 
                             </div>
                         </div>
@@ -83,7 +83,6 @@
                         <span>
                             <img src="<?php echo base_url(); ?>assets/vendor/images/icon.png" alt="icon">
                         </span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                     <!-- Section Heading End -->
                 </div>
@@ -102,9 +101,9 @@
                         <div class="upcoming-content">
                             
                             <div class="upcoming-text">
-                                <h4><a href="blog-single.html">feed a hungry child</a></h4>
+                                <h4><a href="#">feed a hungry child</a></h4>
                                
-                                <p>Lorem ipsum dolor sit amet, consectrtur adipisicing slit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                <p>One of the greatest feelings in the world is knowing that we as individuals can make a difference. Ending hunger in India is a goal, that is literally within our grasp.</p>
                                 
                             </div>
                         </div>
@@ -122,12 +121,9 @@
                             </div>
                         </div>
                         <div class="upcoming-content">
-                            
                             <div class="upcoming-text">
-                                <h4><a href="blog-single.html">charity for education</a></h4>
-                               
-                                <p>Lorem ipsum dolor sit amet, consectrtur adipisicing slit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                                
+                                <h4><a href="#">charity for education</a></h4>
+                                <p>One of the greatest feelings in the world is knowing that we as individuals can make a difference. Ending hunger in India is a goal, that is literally within our grasp.</p>
                             </div>
                         </div>
                     </div>
@@ -144,11 +140,10 @@
                             </div>
                         </div>
                         <div class="upcoming-content">
-                            
                             <div class="upcoming-text">
-                                <h4><a href="blog-single.html">charity for food</a></h4>
+                                <h4><a href="#">charity for food</a></h4>
                                
-                                <p>Lorem ipsum dolor sit amet, consectrtur adipisicing slit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                <p>One of the greatest feelings in the world is knowing that we as individuals can make a difference. Ending hunger in India is a goal, that is literally within our grasp.</p>
                                 
                             </div>
                         </div>
@@ -168,9 +163,9 @@
                         <div class="upcoming-content">
                             
                             <div class="upcoming-text">
-                                <h4><a href="blog-single.html">charity for blood</a></h4>
+                                <h4><a href="#">charity for blood</a></h4>
                                
-                                <p>Lorem ipsum dolor sit amet, consectrtur adipisicing slit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                <p>One of the greatest feelings in the world is knowing that we as individuals can make a difference. Ending hunger in India is a goal, that is literally within our grasp.</p>
                                 
                             </div>
                         </div>
@@ -190,9 +185,9 @@
                         <div class="upcoming-content">
                             
                             <div class="upcoming-text">
-                                <h4><a href="blog-single.html">feed a hungry child</a></h4>
+                                <h4><a href="#">feed a hungry child</a></h4>
                                
-                                <p>Lorem ipsum dolor sit amet, consectrtur adipisicing slit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                <p>One of the greatest feelings in the world is knowing that we as individuals can make a difference. Ending hunger in India is a goal, that is literally within our grasp.</p>
                                 
                             </div>
                         </div>
@@ -212,9 +207,9 @@
                         <div class="upcoming-content">
                             
                             <div class="upcoming-text">
-                                <h4><a href="blog-single.html">feed a hungry child</a></h4>
+                                <h4><a href="#">feed a hungry child</a></h4>
                                
-                                <p>Lorem ipsum dolor sit amet, consectrtur adipisicing slit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                <p>One of the greatest feelings in the world is knowing that we as individuals can make a difference. Ending hunger in India is a goal, that is literally within our grasp.</p>
                                 
                             </div>
                         </div>

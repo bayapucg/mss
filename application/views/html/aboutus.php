@@ -48,7 +48,7 @@
                             <img src="<?php echo base_url(); ?>assets/vendor/images/icon.png" alt="icon">
                         </span>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            MSS is a non-profit organisation working in India, Our main focus is on reducing poverty and social injustice, Our goal is to empower women and girls leading to improve the quality of their lives. we protect, educate & stand up for the rights of children.
                         </p>
                     </div>
                     <!-- Section heading End -->
@@ -60,11 +60,8 @@
                         <div class="whopage-text">
                             <i class="fa fa-calendar" aria-hidden="true"></i>
                             <h4>Make Donation</h4>
-                            <p>Excepteur sint occaecat non proident, culpa qui officia doserunt mollit anim...</p>
-                            
-							
+                            <p>“Find a need & fill it”. Be part of something that is already working</p>
                         </div>
-
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -72,8 +69,7 @@
                         <div class="whopage-text">
                             <i class="fa fa-life-ring" aria-hidden="true"></i>
                             <h4>Become volunteer</h4>
-                            <p>Excepteur sint occaecat non proident, culpa qui officia doserunt mollit anim...</p>
-                           
+                            <p>We’re looking for volunteers who share our vision, providing an opportunity to serve children who are in need.</p>
                         </div>
                     </div>
                 </div>
@@ -82,7 +78,7 @@
                         <div class="whopage-text">
                             <i class="fa fa-diamond" aria-hidden="true"></i>
                             <h4>Support US</h4>
-                            <p>Excepteur sint occaecat non proident, culpa qui officia doserunt mollit anim...</p>
+                            <p>You can also join our family and can do your bit to help, for most disadvantaged children of India. We need to make sure we're all working together to change mindsets, to change attitudes, and to fight against injustice to children in society.</p>
                            
                         </div>
                     </div>
