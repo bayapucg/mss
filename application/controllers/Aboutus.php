@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
-class Aboutus extends CI_Controller {
+@include_once( APPPATH . 'controllers/Front_end.php');
+class Aboutus extends Front_end {
 
 	public function __construct() 
 	{

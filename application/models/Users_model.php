@@ -29,6 +29,57 @@ class Users_model extends CI_Model
 		return $this->db->update('users',$data);
 	}
 	
+	public  function get_event_list(){
+		$this->db->select('*')->from('events');
+		$this->db->where('status',1);
+		$this->db->order_by('e_id','desc');
+		return $this->db->get()->result_array();
+	}
+	public  function get_volunters_list(){
+		$this->db->select('*')->from('volunteers');
+		$this->db->where('status',1);
+		$this->db->order_by('v_id','asc');
+		return $this->db->get()->result_array();
+	}
+	public  function get_gallery_list(){
+		$this->db->select('*')->from('gallery');
+		$this->db->where('status',1);
+		$this->db->order_by('g_id','desc');
+		return $this->db->get()->result_array();
+	}
+	public  function get_about_talk_list(){
+		$this->db->select('*')->from('talkaboutuss');
+		$this->db->where('status',1);
+		$this->db->order_by('a_id','desc');
+		return $this->db->get()->result_array();
+	}
+	public  function get_blogs_listt(){
+		$this->db->select('*')->from('blogs');
+		$this->db->where('status',1);
+		$this->db->order_by('b_id','desc');
+		return $this->db->get()->result_array();
+	}
+	public  function get_upcoming_event_list(){
+		$this->db->select('*')->from('events');
+		$this->db->where('status',1);
+		$this->db->where('type','Upcoming');
+		$this->db->order_by('e_id','desc');
+		return $this->db->get()->result_array();
+	}
+	public  function get_previous_event_list(){
+		$this->db->select('*')->from('events');
+		$this->db->where('status',1);
+		$this->db->where('type','Previous');
+		$this->db->order_by('e_id','desc');
+		return $this->db->get()->result_array();
+	}
+	public  function get_certificates_list(){
+		$this->db->select('*')->from('certificates');
+		$this->db->where('status',1);
+		$this->db->order_by('c_id','asc');
+		return $this->db->get()->result_array();
+	}
+	
 	
 
 }

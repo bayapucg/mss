@@ -21,7 +21,7 @@
 
             <div class="info-box-content">
               <span class="info-box-text">No of Events</span>
-              <span class="info-box-number">80</span>
+              <span class="info-box-number"><?php echo isset($events_count['cnt'])?$events_count['cnt']:''; ?></span>
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -34,7 +34,7 @@
 
             <div class="info-box-content">
               <span class="info-box-text">No of Volunteer </span>
-              <span class="info-box-number">60</span>
+              <span class="info-box-number"><?php echo isset($volunteer_count['cnt'])?$volunteer_count['cnt']:''; ?></span>
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -50,8 +50,8 @@
             <span class="info-box-icon bg-green"><i class="fa fa-users"></i></span>
 
             <div class="info-box-content">
-              <span class="info-box-text">No of Donors</span>
-              <span class="info-box-number">760</span>
+              <span class="info-box-text">No of Certificates</span>
+              <span class="info-box-number"><?php echo isset($certificate_count['cnt'])?$certificate_count['cnt']:''; ?></span>
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -60,11 +60,11 @@
         <!-- /.col -->
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="info-box">
-            <span class="info-box-icon bg-yellow"><i class="fa fa-inr"></i></span>
+            <span class="info-box-icon bg-yellow"><i class="fa fa-users"></i></span>
 
             <div class="info-box-content">
-              <span class="info-box-text">Total Amount</span>
-              <span class="info-box-number">₹ 500000</span>
+              <span class="info-box-text">No of Blogs</span>
+              <span class="info-box-number"> <?php echo isset($blogs_count['cnt'])?$blogs_count['cnt']:''; ?></span>
             </div>
             <!-- /.info-box-content -->
           </div>

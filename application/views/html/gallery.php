@@ -32,163 +32,27 @@
             </div>
               <div class="row">
                       <div class=" col-md-12">
-                          <div id="isotopemenu">
-                              <ul>
-                                  <li class="all active" data-filter="*"><p>all</p></li>
-                                  <li data-filter=".chartiy" class=""><p>Charity</p></li>
-                                  <li data-filter=".nature" class=""><p>Nature</p></li>
-                                  <li data-filter=".wildlife" class=""><p>wildlife</p></li>
-                                  <li data-filter=".children" ><p>children</p></li>
-                              </ul>
-                          </div>
+                          <?php if(isset($gallery_list) && count($gallery_list)>0){ ?>
                           <div id="galleryitems">
+                               <?php foreach($gallery_list as $li){ ?>
                               <div class="chartiy single-item">
                                   <div class="single-isotope">
                                       <div class="layer">
                                       </div>
                                       <div class="isotope-social">
-                                          <a href="<?php echo base_url(); ?>assets/vendor/images/gallery/1.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                          <a href="<?php echo base_url('assets/gallery/'.$li['image']); ?>" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
                                           <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                                       </div>
-                                      <img src="<?php echo base_url(); ?>assets/vendor/images/gallery/1.jpg" alt="gallery">
+                                      <img src="<?php echo base_url('assets/gallery/'.$li['image']); ?>" alt="<?php echo isset($li['org_image'])?$li['org_image']:''; ?>">
                                   </div>
                               </div>
-                              <div class="nature single-item" >
-                                  <div class="single-isotope">
-                                      <div class="layer">
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="<?php echo base_url(); ?>assets/vendor/images/gallery/2.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="<?php echo base_url(); ?>assets/vendor/images/gallery/2.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="children chartiy single-item" >
-                                  <div class="single-isotope">
-                                      <div class="layer">
-
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="<?php echo base_url(); ?>assets/vendor/images/gallery/3.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="<?php echo base_url(); ?>assets/vendor/images/gallery/3.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="nature single-item" >
-                                  <div class="single-isotope">
-                                      <div class="layer">
-
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="<?php echo base_url(); ?>assets/vendor/images/gallery/4.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="<?php echo base_url(); ?>assets/vendor/images/gallery/4.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="wildlife single-item" >
-                                  <div class="single-isotope">
-                                      <div class="layer">
-
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="<?php echo base_url(); ?>assets/vendor/images/gallery/5.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="<?php echo base_url(); ?>assets/vendor/images/gallery/5.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="charity single-item" >
-                                  <div class="single-isotope">
-                                      <div class="layer">
-
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="<?php echo base_url(); ?>assets/vendor/images/gallery/6.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="<?php echo base_url(); ?>assets/vendor/images/gallery/6.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="nature chartiy single-item">
-                                  <div class="single-isotope">
-                                      <div class="layer">
-
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="<?php echo base_url(); ?>assets/vendor/images/gallery/7.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="<?php echo base_url(); ?>assets/vendor/images/gallery/7.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="wildlife children single-item">
-                                  <div class="single-isotope">
-                                      <div class="layer">
-
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="<?php echo base_url(); ?>assets/vendor/images/gallery/8.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="<?php echo base_url(); ?>assets/vendor/images/gallery/8.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="children nature single-item" >
-                                  <div class="single-isotope">
-                                      <div class="layer">
-
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="<?php echo base_url(); ?>assets/vendor/images/gallery/9.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="<?php echo base_url(); ?>assets/vendor/images/gallery/9.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="wildlife charity single-item">
-                                  <div class="single-isotope">
-                                      <div class="layer">
-
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="<?php echo base_url(); ?>assets/vendor/images/gallery/10.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="<?php echo base_url(); ?>assets/vendor/images/gallery/10.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="wildlife charity single-item">
-                                  <div class="single-isotope">
-                                      <div class="layer">
-
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="<?php echo base_url(); ?>assets/vendor/images/gallery/11.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="<?php echo base_url(); ?>assets/vendor/images/gallery/11.jpg" alt="gallery">
-                                  </div>
-                              </div>
-                              <div class="nature wildlife single-item">
-                                  <div class="single-isotope">
-                                      <div class="layer">
-
-                                      </div>
-                                      <div class="isotope-social">
-                                          <a href="<?php echo base_url(); ?>assets/vendor/images/gallery/12.jpg" data-rel="lightcase"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                          <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                      </div>
-                                      <img src="<?php echo base_url(); ?>assets/vendor/images/gallery/12.jpg" alt="gallery">
-                                  </div>
-                              </div>
+                              
+							<?php } ?>
+                              
                           </div>
+						  <?php } ?>
                       </div>
               </div>
-              <div class="all-image">
-                  <a href="#">load more image</a>
-              </div>
+             
           </div>
     </section>

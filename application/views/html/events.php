@@ -15,6 +15,7 @@
     </section>
  <section class="upcoming-section section-padding section-bg-clr">
         <div class="container">
+			<?php if(isset($upcoming_event_list) && count($upcoming_event_list)>0){ ?>
             <div class="row">
                 <div class="col-md-12">
                     <!-- Section Heading Start -->
@@ -28,53 +29,36 @@
                     <!-- Section Heading End -->
                 </div>
             </div>
+		
             <div class="row">
+                <?php foreach($upcoming_event_list as $li){ ?>
+                <div class="col-sm-6">
+                    <!-- Upcoming List Start -->
+                    <div class="upcoming-list upcoming-list1 upcoming-list2">
+                        <div class="upcoming-thumb">
+                            <img src="<?php echo base_url('assets/event/'.$li['image']); ?>" alt="<?php echo isset($li['org_image'])?$li['org_image']:''; ?>">
+                            <div class="upcoming-overlay">
+                                <span></span>
+                                <p><?php echo isset($li['date'])?$li['date']:''; ?></p>
+                            </div>
+                        </div>
+                        <div class="upcoming-content">
+                            
+                            <div class="upcoming-text">
+                                <h4><a href="#"><?php echo isset($li['title'])?$li['title']:''; ?></a></h4>
+                               
+                                <p><?php echo isset($li['description'])?$li['description']:''; ?></p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Upcoming List End -->
+                </div>
+				<?php } ?>
                 
-                <div class="col-sm-6">
-                    <!-- Upcoming List Start -->
-                    <div class="upcoming-list upcoming-list1 upcoming-list2">
-                        <div class="upcoming-thumb">
-                            <img src="<?php echo base_url(); ?>assets/vendor/images/events/5.jpg" alt="events">
-                            <div class="upcoming-overlay">
-                                <span>28</span>
-                                <p>Oct 2018</p>
-                            </div>
-                        </div>
-                        <div class="upcoming-content">
-                            
-                            <div class="upcoming-text">
-                                <h4><a href="blog-single.html">feed a hungry child</a></h4>
-                               
-                                <p>Lorem ipsum dolor sit amet, consectrtur adipisicing slit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Upcoming List End -->
-                </div>
-                <div class="col-sm-6">
-                    <!-- Upcoming List Start -->
-                    <div class="upcoming-list upcoming-list1 upcoming-list2">
-                        <div class="upcoming-thumb">
-                            <img src="<?php echo base_url(); ?>assets/vendor/images/events/6.jpg" alt="events">
-                            <div class="upcoming-overlay">
-                                <span>28</span>
-                                <p>Oct 2018</p>
-                            </div>
-                        </div>
-                        <div class="upcoming-content">
-                            
-                            <div class="upcoming-text">
-                                <h4><a href="blog-single.html">feed a hungry child</a></h4>
-                               
-                                <p>Lorem ipsum dolor sit amet, consectrtur adipisicing slit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Upcoming List End -->
-                </div>
             </div>  
+			<?php } ?>
+			<?php if(isset($previous_event_list) && count($previous_event_list)>0){ ?>
 			 <div class="row">
                 <div class="col-md-12">
                     <!-- Section Heading Start -->
@@ -89,156 +73,34 @@
                 </div>
             </div>
 			<div class="row">
+			   <?php foreach($upcoming_event_list as $li){ ?>
                 <div class="col-sm-6">
                     <!-- Upcoming List Start -->
                     <div class="upcoming-list upcoming-list1 upcoming-list2">
                         <div class="upcoming-thumb">
-                            <img src="<?php echo base_url(); ?>assets/vendor/images/events/1.jpg" alt="events">
+                            <img src="<?php echo base_url('assets/event/'.$li['image']); ?>" alt="<?php echo isset($li['org_image'])?$li['org_image']:''; ?>">
                             <div class="upcoming-overlay">
-                                <span>28</span>
-                                <p>Oct 2018</p>
+                                <span></span>
+                                <p><?php echo isset($li['date'])?$li['date']:''; ?></p>
                             </div>
                         </div>
                         <div class="upcoming-content">
                             
                             <div class="upcoming-text">
-                                <h4><a href="blog-single.html">feed a hungry child</a></h4>
+                                <h4><a href="#"><?php echo isset($li['title'])?$li['title']:''; ?></a></h4>
                                
-                                <p>Lorem ipsum dolor sit amet, consectrtur adipisicing slit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                <p><?php echo isset($li['description'])?$li['description']:''; ?></p>
                                 
                             </div>
                         </div>
                     </div>
                     <!-- Upcoming List End -->
                 </div>
-                <div class="col-sm-6">
-                    <!-- Upcoming List Start -->
-                    <div class="upcoming-list upcoming-list1 upcoming-list2">
-                        <div class="upcoming-thumb">
-                            <img src="<?php echo base_url(); ?>assets/vendor/images/events/2.jpg" alt="events">
-                            <div class="upcoming-overlay">
-                                <span>28</span>
-                                <p>Oct 2018</p>
-                            </div>
-                        </div>
-                        <div class="upcoming-content">
-                            
-                            <div class="upcoming-text">
-                                <h4><a href="blog-single.html">charity for education</a></h4>
-                               
-                                <p>Lorem ipsum dolor sit amet, consectrtur adipisicing slit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Upcoming List End -->
-                </div>
-                <div class="col-sm-6">
-                   <!-- Upcoming List Start -->
-                    <div class="upcoming-list upcoming-list1 upcoming-list2">
-                        <div class="upcoming-thumb">
-                            <img src="<?php echo base_url(); ?>assets/vendor/images/events/3.jpg" alt="events">
-                            <div class="upcoming-overlay">
-                                <span>28</span>
-                                <p>Oct 2018</p>
-                            </div>
-                        </div>
-                        <div class="upcoming-content">
-                            
-                            <div class="upcoming-text">
-                                <h4><a href="blog-single.html">charity for food</a></h4>
-                               
-                                <p>Lorem ipsum dolor sit amet, consectrtur adipisicing slit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Upcoming List End -->
-                </div>
-                <div class="col-sm-6">
-                   <!-- Upcoming List Start -->
-                    <div class="upcoming-list upcoming-list1 upcoming-list2">
-                        <div class="upcoming-thumb">
-                            <img src="<?php echo base_url(); ?>assets/vendor/images/events/4.jpg" alt="events">
-                            <div class="upcoming-overlay">
-                                <span>28</span>
-                                <p>Oct 2018</p>
-                            </div>
-                        </div>
-                        <div class="upcoming-content">
-                            
-                            <div class="upcoming-text">
-                                <h4><a href="blog-single.html">charity for blood</a></h4>
-                               
-                                <p>Lorem ipsum dolor sit amet, consectrtur adipisicing slit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Upcoming List End -->
-                </div>
-                <div class="col-sm-6">
-                    <!-- Upcoming List Start -->
-                    <div class="upcoming-list upcoming-list1 upcoming-list2">
-                        <div class="upcoming-thumb">
-                            <img src="<?php echo base_url(); ?>assets/vendor/images/events/5.jpg" alt="events">
-                            <div class="upcoming-overlay">
-                                <span>28</span>
-                                <p>Oct 2018</p>
-                            </div>
-                        </div>
-                        <div class="upcoming-content">
-                            
-                            <div class="upcoming-text">
-                                <h4><a href="blog-single.html">feed a hungry child</a></h4>
-                               
-                                <p>Lorem ipsum dolor sit amet, consectrtur adipisicing slit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Upcoming List End -->
-                </div>
-                <div class="col-sm-6">
-                    <!-- Upcoming List Start -->
-                    <div class="upcoming-list upcoming-list1 upcoming-list2">
-                        <div class="upcoming-thumb">
-                            <img src="<?php echo base_url(); ?>assets/vendor/images/events/6.jpg" alt="events">
-                            <div class="upcoming-overlay">
-                                <span>28</span>
-                                <p>Oct 2018</p>
-                            </div>
-                        </div>
-                        <div class="upcoming-content">
-                            
-                            <div class="upcoming-text">
-                                <h4><a href="blog-single.html">feed a hungry child</a></h4>
-                               
-                                <p>Lorem ipsum dolor sit amet, consectrtur adipisicing slit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Upcoming List End -->
-                </div>
+               <?php } ?>
             </div>
-                <div class="row">
-                  <div class="col-md-12 ">
-                    <div class="pagination-list">
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                    <li class="page-item"><a class="page-link" href="#"><p>Next</p><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div> 
+			
+			<?php } ?>
+                 
 
 
         </div>

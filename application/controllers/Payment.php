@@ -1,8 +1,10 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+@include_once( APPPATH . 'controllers/Front_end.php');
+
 require_once ('razorpay-php/Razorpay.php');
 use Razorpay\Api\Api as RazorpayApi;
-class Payment extends CI_Controller {
+class Payment extends Front_end {
 
 	public function __construct() 
 	{
@@ -84,7 +86,6 @@ class Payment extends CI_Controller {
 						"display_currency"          => $orderData['currency'],
 		];
 			
-			$this->load->view('html/header');
 			$this->load->view('html/pay',$data);
 			$this->load->view('html/footer');
 		}else{

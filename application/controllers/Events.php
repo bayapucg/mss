@@ -1,7 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+@include_once( APPPATH . 'controllers/Front_end.php');
 
-class Events extends CI_Controller {
+class Events extends Front_end {
 
 	public function __construct() 
 	{
@@ -21,8 +22,9 @@ class Events extends CI_Controller {
 	
 	public function index(){
 		
-		$this->load->view('html/header');
-		$this->load->view('html/events');
+		$data['previous_event_list']=$this->Users_model->get_previous_event_list();
+		$data['upcoming_event_list']=$this->Users_model->get_upcoming_event_list();
+		$this->load->view('html/events',$data);
 		$this->load->view('html/footer');
 		
 	}

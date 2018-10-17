@@ -1,7 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+@include_once( APPPATH . 'controllers/Front_end.php');
 
-class Contactus extends CI_Controller {
+class Contactus extends Front_end {
 
 	public function __construct() 
 	{
@@ -21,7 +22,6 @@ class Contactus extends CI_Controller {
 	
 	public function index(){
 		
-		$this->load->view('html/header');
 		$this->load->view('html/contactus');
 		$this->load->view('html/footer');
 		

@@ -1,7 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+@include_once( APPPATH . 'controllers/Front_end.php');
 
-class Certificates extends CI_Controller {
+class Certificates extends Front_end {
 
 	public function __construct() 
 	{
@@ -21,8 +22,8 @@ class Certificates extends CI_Controller {
 	
 	public function index(){
 		
-		$this->load->view('html/header');
-		$this->load->view('html/certificates');
+		$data['certificates_list']=$this->Users_model->get_certificates_list();
+		$this->load->view('html/certificates',$data);
 		$this->load->view('html/footer');
 		
 	}

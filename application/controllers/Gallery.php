@@ -1,7 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+@include_once( APPPATH . 'controllers/Front_end.php');
 
-class Gallery extends CI_Controller {
+class Gallery extends Front_end {
 
 	public function __construct() 
 	{
@@ -21,8 +22,8 @@ class Gallery extends CI_Controller {
 	
 	public function index(){
 		
-		$this->load->view('html/header');
-		$this->load->view('html/gallery');
+		$data['gallery_list']=$this->Users_model->get_gallery_list();
+		$this->load->view('html/gallery',$data);
 		$this->load->view('html/footer');
 		
 	}

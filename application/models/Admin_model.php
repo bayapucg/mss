@@ -37,6 +37,37 @@ class Admin_model extends CI_Model
     	return $this->db->update("admin",$data);
 	}
 	
+	public  function get_events_count($id){
+		$this->db->select('COUNT(*) as cnt')->from('events');		
+		$this->db->where('status', 1);
+		$this->db->where('create_by', $id);
+        return $this->db->get()->row_array();
+	}
+	public  function get_volunteer_count($id){
+		$this->db->select('COUNT(*) as cnt')->from('volunteers');		
+		$this->db->where('status', 1);
+		$this->db->where('create_by', $id);
+        return $this->db->get()->row_array();
+	}
+	public  function get_certificate_count($id){
+		$this->db->select('COUNT(*) as cnt')->from('certificates');		
+		$this->db->where('status', 1);
+		$this->db->where('create_by', $id);
+        return $this->db->get()->row_array();
+	}
+	public  function get_blogs_count($id){
+		$this->db->select('COUNT(*) as cnt')->from('blogs');		
+		$this->db->where('status', 1);
+		$this->db->where('create_by', $id);
+        return $this->db->get()->row_array();
+	}
+	public  function get_talkaboutus_count($id){
+		$this->db->select('COUNT(*) as cnt')->from('talkaboutuss');		
+		$this->db->where('status', 1);
+		$this->db->where('create_by', $id);
+        return $this->db->get()->row_array();
+	}
+	
 	
 	
 	

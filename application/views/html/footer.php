@@ -27,7 +27,7 @@
                     <div class="footer-list">
                         <div class="row">       
                             <!-- footer-list start -->
-                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
 
                                         <!-- footer item start -->
                                         <div class="footer-item">
@@ -50,7 +50,7 @@
                                     </div><!-- col-md-6 -->
                                 
                                 
-                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                         <!-- footer item start -->
                                         <div class="footer-item">
                                             <div class="footer-header">
@@ -87,20 +87,7 @@
                                                         </a>
                                                         
                                                     </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                                                            <span>privacy policy</span>
-                                                        </a>
-                                                        
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                                                            <p>terms and conditions</p>
-                                                        </a>
-                                                        
-                                                    </li>
+                                                   
                                                     
                                                 </ul>
                                             </div><!-- footer list -->
@@ -109,7 +96,7 @@
                                     
                                 </div><!-- col-md-6 -->
                                 
-                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
                                         <!-- footer item start -->
                                         <div class="footer-item">
                                             <div class="footer-header">
@@ -119,53 +106,34 @@
                                             <div class="footer-widget footer-widget-list">
                                                 <ul>
                                                     <li>
-                                                        <a href="#">
+                                                        <a href="<?php echo base_url('donate'); ?>">
                                                             <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                                                         <span>our donors</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">
+                                                        <a href="<?php echo base_url('events'); ?>">
                                                             <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                                                             <span>events</span>
                                                         </a>
                                                         
                                                     </li>
+                                                   
                                                     <li>
-                                                        <a href="#">
-                                                            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                                                            <span>forums</span>
-                                                        </a>
-                                                        
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
+                                                        <a href="<?php echo base_url(''); ?>">
                                                             <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                                                             <span>blog grid</span>
                                                         </a>
                                                         
                                                     </li>
                                                     <li>
-                                                        <a href="#">
+                                                        <a href="<?php echo base_url('events'); ?>">
                                                             <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                                                             <span>causes</span>
                                                         </a>
                                                         
                                                     </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                                                            <span>forums</span>
-                                                        </a>
-                                                        
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                                                            <span>blog list</span>
-                                                        </a>
-                                                        
-                                                    </li>
+                                                   
                                                 </ul>
                                             </div><!-- footer list  -->
                                         </div>
@@ -173,34 +141,6 @@
                                 </div><!-- col-md-6 -->
                                 
                                 
-                                <div class="col-xs-12 col-sm-6 col-md-3">
-                                        <!-- footer item start -->
-                                        <div class="footer-item">
-                                            <div class="footer-header">
-                                                <h4>email newsletters</h4>
-                                            </div><!-- footer header -->
-                                                <!-- footer newsletter -->
-                                            <div class="footer-widget footer-newsletter">
-                                                
-                                                <form >
-                                                    <div class="form-field">
-                                                        <input type="text" name="name" placeholder="johndoe..">
-                                                        <i class="fa fa-user" aria-hidden="true"></i>
-                                                    </div>
-                                                    <div class="form-field">
-                                                        <input type="email" name="email" placeholder="E-mail Address">
-                                                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                                                    </div>
-                                                    <input type="submit" value="Subscribe Now" name="submit">
-                                                </form>
-                                            </div>
-                                            <!-- footer newsletter-->
-
-                                            
-                                        </div>
-                                        <!-- footer item end -->
-                                    
-                                </div><!-- col-md-6 -->
                             </div>
                             <!-- Footer list end-->
                         </div>  <!-- footer-content -->

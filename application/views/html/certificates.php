@@ -27,15 +27,16 @@
                     <!-- Section Heading End -->
                 </div>
             </div>
+			<?php foreach($certificates_list as $li){ ?>
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <!-- Upcoming List Start -->
                     <div class="upcoming-list upcoming-list1 upcoming-list2">
                         <div class="upcoming-thumb">
-                            <img class="img-responsive img-thumbnail" src="<?php echo base_url(); ?>assets/vendor/images/certi/cert1.png" alt="Certificate">
+                            <img class="img-responsive img-thumbnail" src="<?php echo base_url('assets/certificates/'.$li['image']); ?>" alt="<?php echo isset($li['org_image'])?$li['org_image']:''; ?>">
                             <div class="upcoming-overlay">
-                                <span>02</span>
-                                <p>Oct 2010</p>
+                                <span></span>
+                                <p><?php echo date('M j h:i A',strtotime(htmlentities($li['create_at'])));?></p>
                             </div>
                         </div>
                         
@@ -43,22 +44,8 @@
                     <!-- Upcoming List End -->
                 </div>
             </div>
-			 <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <!-- Upcoming List Start -->
-                    <div class="upcoming-list upcoming-list1 upcoming-list2">
-                        <div class="upcoming-thumb">
-                            <img class="img-responsive img-thumbnail" src="<?php echo base_url(); ?>assets/vendor/images/certi/cert2.png" alt="Certificate">
-                            <div class="upcoming-overlay">
-                                <span>10</span>
-                                <p>Oct 2008</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <!-- Upcoming List End -->
-                </div>
-            </div>
+			<?php } ?>
+			 
               
 
 

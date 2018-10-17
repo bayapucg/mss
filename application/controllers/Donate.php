@@ -1,7 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+@include_once( APPPATH . 'controllers/Front_end.php');
 
-class Donate extends CI_Controller {
+class Donate extends Front_end {
 
 	public function __construct() 
 	{

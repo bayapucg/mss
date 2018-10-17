@@ -14,8 +14,14 @@ class Dashboard extends Back_end {
 		if($this->session->userdata('mss_details'))
 		{
 			$admindetails=$this->session->userdata('mss_details');
+			$data['events_count']=$this->Admin_model->get_events_count($admindetails['id']);
+			$data['volunteer_count']=$this->Admin_model->get_volunteer_count($admindetails['id']);
+			$data['certificate_count']=$this->Admin_model->get_certificate_count($admindetails['id']);
+			$data['blogs_count']=$this->Admin_model->get_blogs_count($admindetails['id']);
+			$data['talkaboutus_count']=$this->Admin_model->get_talkaboutus_count($admindetails['id']);
 			
-			$this->load->view('admin/dashboard');
+			//echo '<pre>';print_r($data);exit;
+			$this->load->view('admin/dashboard',$data);
 			$this->load->view('admin/footer');
 
 		}else{

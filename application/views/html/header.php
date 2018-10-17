@@ -92,25 +92,25 @@
                                                 <span class="icon-bar"></span>
                                                 <span class="icon-bar"></span>
                                               </button>
-                                              <a class="navbar-brand" href="#"><img style="width:150px;height:auto;" src="<?php echo base_url(); ?>assets/vendor/images/logo.png" alt="logo"></a>
+                                              <a class="navbar-brand" href="<?php echo base_url(); ?>"><img style="width:150px;height:auto;" src="<?php echo base_url(); ?>assets/vendor/images/logo.png" alt="logo"></a>
                                             </div>
 
                                             <!-- Collect the nav links, forms, and oth
                                                 er content for toggling -->
                                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                               <ul class="nav navbar-nav">
-                                                <li class="menu-active"><a class="page-scroll" href="<?php echo base_url(); ?>">Home <span class="sr-only">(current)</span></a></li>
-                                                <li><a class="page-scroll" href="<?php echo base_url('aboutus'); ?>">about us</a></li> 
+                                                <li class="<?php if($this->uri->segment(1)==''){ echo "menu-active"; } ?>"><a class="page-scroll" href="<?php echo base_url(); ?>">Home <span class="sr-only">(current)</span></a></li>
+                                               <li class="<?php if($this->uri->segment(1)=='aboutus'){ echo "menu-active"; } ?>"><a class="page-scroll" href="<?php echo base_url('aboutus'); ?>">about us</a></li> 
 											
-												<li><a class="page-scroll" href="<?php echo base_url('gallery'); ?>">Gallery</a>
+												<li class="<?php if($this->uri->segment(1)=='gallery'){ echo "menu-active"; } ?>"><a class="page-scroll" href="<?php echo base_url('gallery'); ?>">Gallery</a>
 												</li>
-												<li><a class="page-scroll" href="<?php echo base_url('events'); ?>">events</a></li>
-												<li><a class="page-scroll" href="<?php echo base_url('certificates'); ?>">Certificates</a></li>
-                                               	<li><a class="page-scroll" href="<?php echo base_url('donate'); ?>">Donate</a></li>
+												<li class="<?php if($this->uri->segment(1)=='events'){ echo "menu-active"; } ?>"><a class="page-scroll" href="<?php echo base_url('events'); ?>">events</a></li>
+												<li class="<?php if($this->uri->segment(1)=='certificates'){ echo "menu-active"; } ?>"><a class="page-scroll" href="<?php echo base_url('certificates'); ?>">Certificates</a></li>
+                                               	<li class="<?php if($this->uri->segment(1)=='donate'){ echo "menu-active"; } ?>"><a class="page-scroll" href="<?php echo base_url('donate'); ?>">Donate</a></li>
                                                 
                                              
                                                 
-                                                <li><a class="page-scroll" href="<?php echo base_url('contactus'); ?>">contact</a></li>
+                                                <li class="<?php if($this->uri->segment(1)=='contactus'){ echo "menu-active"; } ?>"><a class="page-scroll" href="<?php echo base_url('contactus'); ?>">contact</a></li>
                                               </ul>
                                               <div class="donate-button">
                                                 <button type="button" data-toggle="modal" data-target="#donate-popup">donate<br> now</button>
