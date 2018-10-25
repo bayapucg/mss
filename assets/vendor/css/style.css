@@ -1814,6 +1814,7 @@ blockquote:after,
 }
 .causes-list {
   border: 1px solid rgba(56, 54, 52, 0.1);
+    margin-bottom: 20px;
 }
 @media screen and (max-width: 991px) {
   .causes-list {
@@ -2020,6 +2021,7 @@ blockquote:after,
   -moz-transition: all ease-in-out 0.5s;
   -ms-transition: all ease-in-out 0.5s;
   -o-transition: all ease-in-out 0.5s;
+    margin-bottom: 20px;
 }
 .volunter-list:hover .volunter-content {
   -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
@@ -2033,6 +2035,8 @@ blockquote:after,
 }
 .volunter-list .volunter-thumb img {
   width: 100%;
+    min-height: 360px;
+    max-height: 360px;
 }
 .volunter-list .volunter-content {
   -webkit-transition: all ease-in-out 0.5s;
@@ -2260,21 +2264,30 @@ blockquote:after,
     text-align: center;
   }
 }
+.swiper-slide .upcoming-list{
+    display: flex;
+}
+@media screen and (max-width: 1199px) {
+  .swiper-slide .upcoming-list {
+    display: block;
+    text-align: center;
+  }
+}
 .upcoming-list:hover .upcoming-content .upcoming-text h4 a {
   color: #ff7107;
 }
 
 .swiper-slide .upcoming-list .upcoming-thumb {
-  float: left;
-  margin-right: 10px;
+  width: 25%;
   padding: 20px 0px;
   padding-left: 20px;
 }
 .swiper-slide .upcoming-list .upcoming-thumb img{
-    min-width: 100px;
-    max-width: 100px;
     min-height: 100px;
     max-height: 110px;
+}
+.swiper-slide .upcoming-list .upcoming-thumb {
+  padding: 20px 10px;
 }
 .upcoming-list .upcoming-thumb {
   margin-right: 10px;
@@ -2286,11 +2299,13 @@ blockquote:after,
     min-height: 290px;
     max-height: 290px;
 }
+@media screen and (max-width: 1199px) {
+    .swiper-slide .upcoming-list .upcoming-thumb{
+        width: 100%;
+    }
+}
 @media screen and (max-width: 768px) {
   .upcoming-list .upcoming-thumb {
-    float: none;
-  }
-  .swiper-slide .upcoming-list .upcoming-thumb {
     float: none;
   }
   .upcoming-list .upcoming-thumb img {
@@ -2298,6 +2313,9 @@ blockquote:after,
       min-height: 230px;
       max-height: 230px;
   }
+}
+.swiper-slide .upcoming-list .upcoming-text {
+  padding: 15px 0px;
 }
 .upcoming-list .upcoming-text {
   float: left;
@@ -2581,6 +2599,9 @@ blockquote:after,
 .blog-section1 {
   padding-bottom: 170px;
 }
+.blog-list{
+    margin-bottom: 20px;
+}
 @media screen and (max-width: 991px) {
   .blog-list {
     margin-bottom: 30px;
@@ -2602,6 +2623,8 @@ blockquote:after,
 }
 .blog-list .blog-thumb img {
   width: 100%;
+    min-height: 350px;
+    max-height: 350px;
 }
 .blog-list .blog-thumb .blog-overlay {
   position: absolute;
@@ -2695,6 +2718,8 @@ blockquote:after,
 .blog-list .blog-content .blog-text p {
   margin: 15px 0px;
   margin-bottom: 30px;
+    height: 70px;
+    overflow: hidden;
 }
 .blog-list .blog-content .blog-text a {
   position: relative;

@@ -524,6 +524,9 @@
                                     </p>
                                     <span>
                                         <?php echo isset($ddd[1])?$ddd[1]:''; ?></span>
+                                    <p>
+                                        <?php echo isset($ddd[2])?$ddd[2]:''; ?>
+                                    </p>
                                     <a href="#">joined event</a>
                                 </div>
                             </div>
