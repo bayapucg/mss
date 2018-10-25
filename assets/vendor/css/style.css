@@ -1887,6 +1887,8 @@ blockquote:after,
 .causes-list .causes-content {
   padding: 12px 20px;
   padding-bottom: 8px;
+    max-height: 300px;
+    min-height: 300px;
 }
 .causes-list .causes-content .causes-text {
   margin-top: 0px;
@@ -1894,6 +1896,8 @@ blockquote:after,
 }
 .causes-list .causes-content .causes-text h4 {
   text-transform: uppercase;
+    min-height: 65px;
+    max-height: 65px;
 }
 @media screen and (max-width: 1199px) {
   .causes-list .causes-content .causes-text h4 {
@@ -1901,8 +1905,11 @@ blockquote:after,
   }
 }
 .causes-list .causes-content .causes-text p {
-  margin: 15px 0px;
-  margin-bottom: 45px;
+  margin: 10px 0px;
+  margin-bottom: 25px;
+  min-height: 140px;
+  max-height: 140px;
+    overflow: hidden;
 }
 .causes-list .causes-content .causes-text a {
   padding: 10px 25px;
@@ -2447,10 +2454,12 @@ blockquote:after,
   color: #fff;
 }
 .upcoming-list2 .upcoming-content {
+  overflow: hidden;
   padding: 20px 30px;
   padding-bottom: 38px;
   background-color: rgba(222, 222, 222, 0.5);
-  overflow: hidden;
+  min-height: 180px;
+  max-height: 180px;
 }
 @media screen and (max-width: 1199px) {
   .upcoming-list2 .upcoming-content {
@@ -2493,7 +2502,6 @@ blockquote:after,
 .upcoming-list2 .upcoming-content .upcoming-text p {
   color: #383634;
   margin-top: 20px;
-  padding-bottom: 40px;
 }
 /*===============================
 ========== 10.0 Client Section Start
@@ -6494,6 +6502,15 @@ aside .widget-tags ul li a {
 }
 #galleryitems .single-item .single-isotope img {
   width: 100%;
+  min-height: 250px;
+  max-height: 250px;
+}
+@media (max-width:667px){
+    #galleryitems .single-item .single-isotope img {
+      width: 100%;
+      min-height: 110px;
+      max-height: 110px;
+    }
 }
 #galleryitems .single-item .single-isotope .layer {
   position: absolute;

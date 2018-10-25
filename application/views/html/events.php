@@ -24,7 +24,7 @@
                         <span>
                             <img src="<?php echo base_url(); ?>assets/vendor/images/icon.png" alt="icon">
                         </span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Keep up to date with our events & programs.</p>
                     </div>
                     <!-- Section Heading End -->
                 </div>
@@ -67,12 +67,12 @@
                         <span>
                             <img src="<?php echo base_url(); ?>assets/vendor/images/icon.png" alt="icon">
                         </span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                     <!-- Section Heading End -->
                 </div>
             </div>
 			<div class="row">
+        
 			   <?php foreach($upcoming_event_list as $li){ ?>
                 <div class="col-sm-6">
                     <!-- Upcoming List Start -->
