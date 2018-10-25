@@ -293,8 +293,8 @@
                 <!-- Volunter List Start -->
                 <div class="volunter-list">
                     <!-- Volunter Thumb Start -->
-                    <div class="volunter-thumb">
-                        <img class="img-responsive img-thumbnail" src="<?php echo base_url('assets/volunteer/'.$li['image']); ?>" alt="<?php echo isset($li['org_image'])?$li['org_image']:''; ?>">
+                    <div class="volunter-thumb text-center" >
+                        <img class=" img-thumbnail" src="<?php echo base_url('assets/volunteer/'.$li['image']); ?>" alt="<?php echo isset($li['org_image'])?$li['org_image']:''; ?>">
 
                     </div>
                     <!-- Volunter Thumb End -->
