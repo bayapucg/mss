@@ -44,7 +44,7 @@
 
                                                 <li>
                                                     <i class="fa fa-phone" aria-hidden="true"></i>
-                                                    <P>+000 000 0000</P>
+                                                    <P>+91 9700233222</P>
                                                 </li>
                                                 
                                             </ul>
