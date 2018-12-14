@@ -2,11 +2,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Event's List
+        Talk About Us List
       </h1>
       <ol class="breadcrumb">
         <li><a href="<?php echo base_url('dashboard'); ?>"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active"> Event's List</li>
+        <li class="active"> Talk About Us List</li>
       </ol>
     </section>
 
@@ -18,10 +18,11 @@
 
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title"> Event's List</h3>
+              <h3 class="box-title"> Talk About Us List</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
+                <div class="table-responsive">
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>
@@ -73,6 +74,7 @@
                 </tr>
                 </tfoot>
               </table>
+                </div>
             </div>
             <!-- /.box-body -->
           </div>

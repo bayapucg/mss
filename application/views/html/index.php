@@ -89,7 +89,7 @@
                 <!-- Who Content Start -->
                 <div class="who-content">
                     <h2>who we <span>are</span></h2>
-                    <P>MSS is a non-profit organisation working in India, Our main focus is on reducing poverty and social injustice, Our goal is to empower women and girls leading to improve the quality of their lives. we protect, educate & stand up for the rights of children.</P>
+                    <P>MSS is a non-profit organisation working in India. Our main focus is on reducing poverty and social injustice, and our goal is to empower women and girls leading to improve the quality of their lives. We protect, educate & stand up for the rights of children.</P>
 
                 </div>
                 <!-- Who Content End -->
@@ -216,7 +216,7 @@
                         <h3 class="">
                             <?php echo isset($upcoming_event_list)?count($upcoming_event_list):''; ?>
                         </h3>
-                        <p>Up Comming Events</p>
+                        <p>UpComing Events</p>
                     </div>
                 </div>
                 <!-- Counter List End -->
@@ -278,7 +278,7 @@
             <div class="col-md-12">
                 <!-- Section Heading Start -->
                 <div class="section-heading">
-                    <h2>our <span>volunters</span></h2>
+                    <h2>our <span>volunteers</span></h2>
                     <span>
                         <img src="<?php echo base_url(); ?>assets/vendor/images/icon.png" alt="icon">
                     </span>
@@ -327,7 +327,7 @@
             <div class="col-md-6">
                 <!-- Section Heading Start -->
                 <div class="section-heading section-heading2">
-                    <h2>Become <span>volunters</span></h2>
+                    <h2>Become <span>volunteers</span></h2>
                     <span>
                         <img src="<?php echo base_url(); ?>assets/vendor/images/icon.png" alt="icon">
                     </span>
@@ -389,7 +389,7 @@
             </div>
         </div>
         <div class="all-image">
-            <a href="<?php echo base_url('gallery'); ?>">load more image</a>
+            <a href="<?php echo base_url('gallery'); ?>">load more images</a>
         </div>
     </div>
 </section>

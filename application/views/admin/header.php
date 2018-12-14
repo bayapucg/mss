@@ -192,7 +192,7 @@
 		<li class="treeview">
           <a href="#">
             <i class="fa fa-files-o"></i>
-            <span>TALK ABOUT US</span>
+            <span>Talk About Us</span>
             <span class="pull-right-container">
               <span class="label label-primary pull-right"></span>
             </span>
@@ -205,7 +205,7 @@
 		<li class="treeview">
           <a href="#">
             <i class="fa fa-files-o"></i>
-            <span>BLOGS</span>
+            <span>Blogs</span>
             <span class="pull-right-container">
               <span class="label label-primary pull-right"></span>
             </span>

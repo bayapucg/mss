@@ -6,7 +6,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="footer-support-content">
-                                <h4>help by become a volunteer &amp; help by donate for causes</h4>
+                                <h4>HELP BY BECOMING A VOLUNTEER &amp; HELP BY DONATING FOR CAUSE</h4>
                             </div>
                             
                         </div>
@@ -121,9 +121,9 @@
                                                     </li>
                                                    
                                                     <li>
-                                                        <a href="<?php echo base_url(''); ?>">
+                                                        <a href="<?php echo base_url('certificates'); ?>">
                                                             <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                                                            <span>blog grid</span>
+                                                            <span>certificates</span>
                                                         </a>
                                                         
                                                     </li>

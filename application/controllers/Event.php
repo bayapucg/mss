@@ -128,7 +128,7 @@ class Event extends Back_end {
 					);
 						$update=$this->Event_model->update_event_details($post['e_id'],$update_data);
 						if(count($update)>0){
-							$this->session->set_flashdata('success','Event successfully Updated');
+							$this->session->set_flashdata('success','Event successfully updated');
 							redirect('event/lists');
 							
 						}else{

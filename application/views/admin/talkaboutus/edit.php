@@ -1,11 +1,11 @@
 <div class="content-wrapper">
 <section class="content-header">
       <h1>
-        Edit Talk about us
+        Edit Talk About Us
       </h1>
       <ol class="breadcrumb">
         <li><a href="<?php echo base_url('dashboard'); ?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-        <li class="active">Edit Talk about us</li>
+        <li class="active">Edit Talk About Us</li>
       </ol>
     </section>
    <section class="content">
@@ -15,7 +15,7 @@
           <!-- general form elements -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Edit Talk about us</h3>
+              <h3 class="box-title">Edit Talk About Us</h3>
             </div>
             <!-- /.box-header -->
             <!-- form start -->

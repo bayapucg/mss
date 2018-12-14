@@ -126,7 +126,7 @@ class Talkaboutus extends Back_end {
 					);
 						$update=$this->Talkaboutus_model->update_talkaboutus_details($post['a_id'],$update_data);
 						if(count($update)>0){
-							$this->session->set_flashdata('success','Talkaboutus_model successfully Updated');
+							$this->session->set_flashdata('success','Talkaboutus_model successfully updated');
 							redirect('talkaboutus/lists');
 							
 						}else{

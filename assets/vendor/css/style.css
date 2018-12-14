@@ -961,6 +961,18 @@ blockquote:after,
 /*===============================
 ========== 2.0 Header top Section Start
 =================================*/
+.navbar-brand img{
+    width: 150px;
+    height: auto;
+}
+
+@media (max-width: 768px){
+    .navbar-brand img{
+        width: 95px;
+        height: auto;
+    }
+}
+
 .header-section {
   position: fixed;
   z-index: 999;
@@ -1259,6 +1271,11 @@ blockquote:after,
     padding-right: 20px;
   }
 }
+@media screen and (max-width: 991px) {
+  .header-section .header-bottom .navbar-default .navbar-collapse .navbar-nav li:last-child a {
+    padding-right: 5px;
+  }
+}
 @media screen and (min-width: 770px) {
   .header-section .header-bottom .navbar-default .navbar-collapse .navbar-nav li:hover .submenu {
     opacity: 1;
@@ -1290,6 +1307,11 @@ blockquote:after,
   .header-section .header-bottom .navbar-default .navbar-collapse .navbar-nav li a {
     padding: 28px 5px;
   }
+}
+@media screen and (max-width: 768px){
+    .header-section .header-bottom .navbar-default .navbar-collapse .navbar-nav li a {
+        padding: 10px 5px;
+    }
 }
 @media screen and (min-width: 770px) {
   .header-section .header-bottom .navbar-default .navbar-collapse .navbar-nav li .submenu {
@@ -2904,7 +2926,7 @@ blockquote:after,
 .footer-section .footer-support-list .footer-support-content h4 {
   text-transform: uppercase;
   color: #fff;
-  font-size: 18px;
+  font-size: 17px;
   padding: 15px 0px;
 }
 @media screen and (max-width: 1199px) {

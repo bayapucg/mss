@@ -84,7 +84,7 @@ class Volunteer extends Back_end {
 					);
 					$save=$this->Volunteer_model->save_volunteer($add_data);
 						if(count($save)>0){
-							$this->session->set_flashdata('success','Volunters successfully added');
+							$this->session->set_flashdata('success','Volunteers successfully added');
 							redirect('volunteer/lists');
 							
 						}else{
@@ -124,7 +124,7 @@ class Volunteer extends Back_end {
 					);
 						$update=$this->Volunteer_model->update_volunteer_details($post['v_id'],$update_data);
 						if(count($update)>0){
-							$this->session->set_flashdata('success','Volunters successfully Updated');
+							$this->session->set_flashdata('success','Volunteers successfully updated');
 							redirect('volunteer/lists');
 							
 						}else{

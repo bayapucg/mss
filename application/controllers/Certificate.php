@@ -122,7 +122,7 @@ class Certificate extends Back_end {
 					);
 						$update=$this->Certicate_model->update_certificates_details($post['c_id'],$update_data);
 						if(count($update)>0){
-							$this->session->set_flashdata('success','Certificate successfully Updated');
+							$this->session->set_flashdata('success','Certificate successfully updated');
 							redirect('certificate/lists');
 							
 						}else{

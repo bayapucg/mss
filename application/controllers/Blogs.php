@@ -128,7 +128,7 @@ class Blogs extends Back_end {
 					);
 						$update=$this->Blogs_model->update_blogs_details($post['b_id'],$update_data);
 						if(count($update)>0){
-							$this->session->set_flashdata('success','Blog successfully Updated');
+							$this->session->set_flashdata('success','Blog successfully updated');
 							redirect('blogs/lists');
 							
 						}else{

@@ -58,7 +58,7 @@
 								
 						  <div class="form-group">
                             <div class="col-md-6">
-                                <a  href="<?php echo base_url('admin/forgotpassword'); ?>" >Forget Password?</a>
+                                <a  href="<?php echo base_url('admin/forgotpassword'); ?>" >Forgot Password?</a>
 								
                                 
                             </div> 

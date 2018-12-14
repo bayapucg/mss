@@ -21,7 +21,7 @@
                     <div class="contact-info-thumb"><i class="fa fa-map-o" aria-hidden="true"></i></div>
                     <div class="contact-info-content">
                         <h4>Address</h4>
-                        <p>Namalagundu,Secunderbad</p>
+                        <p>Namalagundu,Secunderabad</p>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@
                 <div class="contact-branch">
                     <h4>MITHRA SEVA SAMITHI</h4>
                     <ul>
-                        <li><span>11-2-472/2/1/B,Beside, Nehru Priamary School,Namalagundu,Secunderbad -500036</span></li>
+                        <li><span>11-2-472/2/1/B,Beside, Nehru Primary School,Namalagundu,Secunderbad -500036</span></li>
                         <li><span>+91 9989819807</span></li>
                     </ul>
                     <div class="row">

@@ -120,7 +120,7 @@ class Galleryimg extends Back_end {
 					);
 						$update=$this->Gallery_model->update_gallery_details($post['g_id'],$update_data);
 						if(count($update)>0){
-							$this->session->set_flashdata('success','Certificate successfully Updated');
+							$this->session->set_flashdata('success','Image successfully updated');
 							redirect('galleryimg/lists');
 							
 						}else{
