@@ -82,6 +82,18 @@
   </div>
   <!-- /.login-box-body -->
 </div>
+<?php if($this->session->flashdata('success')): ?>
+<div class="alert_msg1 animated slideInUp bg-succ">
+   <?php echo $this->session->flashdata('success');?> &nbsp; <i class="fa fa-check text-success ico_bac" aria-hidden="true"></i>
+</div>
+<?php endif; ?>
+<?php if($this->session->flashdata('error')): ?>
+<div class="alert_msg1 animated slideInUp bg-warn">
+   <?php echo $this->session->flashdata('error');?> &nbsp; <i class="fa fa-exclamation-triangle text-success ico_bac" aria-hidden="true"></i>
+</div>
+<?php endif; ?>    
+    
+    
 
 <script type="text/javascript">
 $(document).ready(function() {
@@ -125,13 +137,3 @@ $(document).ready(function() {
 <!-- AdminLTE for demo purposes -->
 </body>
 </html>
-<?php if($this->session->flashdata('success')): ?>
-<div class="alert_msg1 animated slideInUp bg-succ">
-   <?php echo $this->session->flashdata('success');?> &nbsp; <i class="fa fa-check text-success ico_bac" aria-hidden="true"></i>
-</div>
-<?php endif; ?>
-<?php if($this->session->flashdata('error')): ?>
-<div class="alert_msg1 animated slideInUp bg-warn">
-   <?php echo $this->session->flashdata('error');?> &nbsp; <i class="fa fa-exclamation-triangle text-success ico_bac" aria-hidden="true"></i>
-</div>
-<?php endif; ?>
